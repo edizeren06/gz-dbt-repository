@@ -1,5 +1,17 @@
-
 version: 2
+
+sources:
+  - name: raw     
+    tables:
+      - name: sales     
+        description: "Raw sales data from gz_raw_data dataset"
+      - name: product   
+        description: "Raw product data from gz_raw_data dataset"
+      - name: ship      
+        description: "Raw shipping data from gz_raw_data dataset"
+
+
+
 
 models:
     - name: my_first_dbt_model
